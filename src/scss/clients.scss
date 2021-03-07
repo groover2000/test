@@ -1,0 +1,30 @@
+.clients {
+    background: #E5E5E5;
+    padding: 100px;
+   &-title {
+       text-align: center;
+       margin-bottom: 30px;
+   }
+}
+
+.swiper-clients{
+    width: 100%;
+    
+}
+
+.swiper-clients-slide__img{
+    width: 100%;
+
+}
+
+ .btn-clients-prev{
+    // position: relative;
+    &::after {
+        content: url('/assets/img/slider/lefticon.png');
+    }
+}
+.btn-clients-next {
+    &::after {
+        content: url('/assets/img/slider/righticon.png');
+    }
+}

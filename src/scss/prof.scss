@@ -1,0 +1,25 @@
+.prof {
+    padding: 50px 0;
+    background: #E5E5E5;
+    &-title {
+        text-align: center;
+        padding: 30px 0;
+    }
+}
+.swiper-slide-prof {
+    &__img {
+        width: 100%;
+    }
+    &-end {
+        text-align: center;
+        &__name {
+            font-size: 16px;
+
+        }
+        &__text {
+            font-weight: 300;
+            font-size: 15px;
+            
+        }
+    }
+}

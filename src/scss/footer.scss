@@ -1,0 +1,11 @@
+.footer{
+    background: #67BC9E;
+    &-wrapper {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    &-first {
+        width: 300px;
+    }
+}
