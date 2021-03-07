@@ -20,11 +20,11 @@
  .btn-clients-prev{
     // position: relative;
     &::after {
-        content: url('/assets/img/slider/lefticon.png');
+        content: url('../assets/img/slider/lefticon.png');
     }
 }
 .btn-clients-next {
     &::after {
-        content: url('/assets/img/slider/righticon.png');
+        content: url('../assets/img/slider/righticon.png');
     }
 }
